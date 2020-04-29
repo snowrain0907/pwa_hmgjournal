@@ -353,7 +353,7 @@ function reset() {
      var types = ['NEW', 'RETURNING'];
      var devices = ['DESKTOP', 'MOBILE', 'TABLET'];
      var pages = _.times(PAGES, function() {
-         return 'https://example.com/page/' + Math.round(Math.random() * PAGES);
+         return 'https://news.hmgjournal.com' + Math.round(Math.random() * PAGES);
      })
      _.each(devices, function(device) {
         _.each(pages, function(page) {
